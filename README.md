@@ -1,14 +1,35 @@
-# access-here
-BETA VERSION
-Download the MEGA folder, unzip it/extract the contents. 
-now- chrome->manage extensions-> toggle dev mode ON (top right corner)-> click on Load unpacked (upper left)->select the unzipped folder->it gets loaded (if it says manifest missing, hit retry and unpack again)->you're good to go->use authmate
+## How to use?
 
-LINK TO MEGA FOLDER: https://mega.nz/folder/WswHyJIK#pzR-TmDvuhEPm6Qs9vyr9g
-LINK TO THE WEB-APP: https://auth-mate-three.vercel.app/
-***USING AUTHMATE 
-1. once the extension is loaded, go to the web-app and create your authmate account
-2. Now toggle to the Login Password tab and create your extension password (this can also be changed later, just remember that this is different from the web-app pw aka authmate pw)
-3. Now go to the authmate extension in the extensions icon and login there: the email id is the one you used on the webapp and pw is your EXTENSION PASSWORD
-4. Now you can connect authmate to codeforces in the steps below:-
-5. Go to codeforces profile, you should see a bar to enter your codeforces password for connecting authmate
-6. For disconnecting, enter a new codeforces password to use henceforth
+1. Download the extension files from https://mega.nz/folder/WswHyJIK#pzR-TmDvuhEPm6Qs9vyr9g
+
+![Mega Download](/src/mega-download.png)
+
+2. Go to Manage Extensions. Turn the developer's mode on and load the extension files unpacked.
+
+![Load Extension](/src/load-extension.png)
+
+3. Go to our https://auth-mate-three.vercel.app and create an account and generate a login password(This password will be used to login through extension popup).
+
+![Signup](/src/signup.png)
+![Extension Login Password](/src/extension-login-password.png)
+
+4. Login through the extension popup(Use your email and the password you later created in step 3)
+
+![Extension Login](/src/extension-popup-login.png)
+
+5. Go to Codeforces->Settings->General and connect your account through the AuthMate UI.
+
+![Connect your account](/src/connect.png)
+
+6. Now you can securely log into Codeforces anytime you want.
+   Just send a login request and approve it in the Web App at https://auth-mate-three.vercel.app/.
+
+![Login to Codeforces](/src/login-codeforces.png)
+
+![Wait for Approval](/src/wait-for-approval.png)
+
+![Approve Login](/src/approve-login-request.png)
+
+7. You can disconnect anytime at Codeforces->Settings->General.
+
+![Disconnect](/src/disconnect.png)
